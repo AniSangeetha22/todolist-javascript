@@ -37,9 +37,10 @@ header form {
     flex-direction: row;
     justify-content: space-between;
 }
+
  #mytasks {
     padding: 2%;
-    width: 80%;
+    width: 100%;
     border-radius: 5px;
     background-color:rgb(61, 59, 59) ;
     border: solid 1px rgb(191, 178, 163);
@@ -61,8 +62,14 @@ header form {
     margin-top: 20px;
     color: burlywood;
 }
+#taskslist{
+    width: 100%;
+}
+#todolist {
+    width: 100%;
+}
 #todolist li {
-    width: 90%;
+    width: 100%;
     
     border-radius: 5px;
     background-color:rgb(61, 59, 59) ;
@@ -98,4 +105,8 @@ header form {
 .delete:hover {
     color: rgb(239, 83, 90);
     cursor: pointer;
+}
+
+@media (max-width: 680px) {
+	.container { width: 100%; }
 }
